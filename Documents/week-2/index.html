@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Get Your Akani Name!!!</title>
+    <title>Get Your Akan Name!!!</title>
     <link rel="stylesheet" href="css/bootstrap.css" type="text/css">
     <link rel="stylesheet" href="css/styles.css" type="text/css">
     <script src="JS/script.js"></script>
@@ -11,20 +11,36 @@
 <body>
     <div class="container">
         <div class="jumbotron">
-            <h1><strong><em>Want to know your Akani Name?</em></strong></h1>
-            <p><em>If so, then you're in the right place. Fill out the from ad find out your Akani name in a  matter of seconds.</em></p>
-        </div>
-    </div> 
-    <h2>Get Your Akani Name..!!!</h2> 
+            <h1><strong><em>Want to know your Akan Name?</em></strong></h1>
+            <p><em>If so, then you're in the right place. Fill out the from and find out your Akani name in a  matter of seconds.</em></p>
+    </div>
+
+        <h1>What is an Akan Name?</h1>
+    <p>The Akan people of Ghana frequently name their children after the day of the week they were born and the order in which they were born. These "day names" have further meanings concerning the soul and character of the person. Middle names have considerably more variety and can refer to their birth order, twin status, or an ancestor's middle name.</p>
       
-    <h3> 
-        Kindly input date in 
-        dd-mm-yyyy format.
-    </h3> 
+    <h2>Get Your Akan Name..!!!</h2> 
       
-    <label for="Date of Birth"> 
-        Enter the Date: 
-        <input type="date" name="date"> 
-    </label> 
+        <h3> 
+            Kindly input date in 
+            dd-mm-yyyy format.
+            
+            <p>Enter your birthday</b> (then hit the &quot;Update&quot; button):</p>
+            
+            <form>
+              <p>Numeric Month (1-12): <input TYPE="text" NAME="month" SIZE="2"> </p>
+              <p>Day of Month (1-31): <input TYPE="text" NAME="day" SIZE="2"> </p>
+              <p>Year (eg. 1960): <input TYPE="text" NAME="year" SIZE="4"> </p>
+              <p><input TYPE="button" VALUE="Update" ONCLICK="compute(this.form)"> <input TYPE="reset"
+              VALUE="Clear"> </p>
+              <p>Date of Birth: <input TYPE="text" NAME="result1" SIZE="18"> </p>
+              <p>Day of Week: <input TYPE="text" NAME="result2" SIZE="18"> </p>
+            </form>
+    
+            <form id="my_form_03">
+                Male <input type="radio" name="gender" id="gender_Male" value="Male" />
+                Female <input type="radio" name="gender" id="gender_Female" value="Female" />
+                <input type="button" id="my_input03" value ="Check" onclick="my_function03()" />
+                </form>
+                <p id="my_output03" style="color:red;">Output appears here</p>
 </body>
 </html>
